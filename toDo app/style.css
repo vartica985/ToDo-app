@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+    background-color: #e7e8d1;
+}
+
+#main-heading{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    /* margin-top: 10px; */
+    align-items: center;
+    justify-content: center;
+    margin: 7px 341px;
+}
+
+#todo-input, #todo-date{
+    font-size: 15px;
+    padding:10px 5px;
+}
+
+.dlt_btn{
+    background-color: rgb(113, 7, 7);
+    color: azure;
+    border:none;
+    border-radius: 10px;
+    padding:15px 0px;
+    cursor: pointer;
+}
+
+.add_btn{
+    background-color: green;
+    color: azure;
+    border:none;
+    border-radius: 10px;
+    padding:15px 0px;
+    cursor: pointer;
+}
+
+.container,span{
+    background-color: rgb(153, 155, 116);
+}
+
+input:focus {
+    outline: none; /*Remove the default focus outline*/
+}
+
